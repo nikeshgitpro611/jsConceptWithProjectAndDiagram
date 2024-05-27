@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: radial-gradient(#280a48, #20043d);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+header {
+  text-align: center;
+  margin: 3rem 0;
+}
+header h1 {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 5rem;
+  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+header p {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #8964b0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* #main Section */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  width: 90%;
+  max-width: 90rem;
+  margin: auto;
+}
+.message {
+  font-size: 2rem;
+  background-color: #625174;
+  border-radius: 10px;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+.number {
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+  justify-content: center;
+
+  padding: 2rem;
+  background-color: #ebe7ef;
+  font-size: 2rem;
+  color: black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 2px solid rgb(47, 0, 255);
+
+}
+.guess{
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+  justify-content: center;
+
+  color: black;
+  font-size: 2rem;
+  padding: 2rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10px;
+  border: 2px solid rgb(47, 0, 255);
+
+}
